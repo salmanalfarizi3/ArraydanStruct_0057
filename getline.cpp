@@ -21,4 +21,6 @@ int main() {
         cout << "Mengisi Data" << endl;
         cout << "Nama : ";
         getline(cin, mhs.nama);
-      
+        cout << "desa : ";
+        getline(cin, mhs.alamat.desa);
+        
