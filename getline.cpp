@@ -20,12 +20,18 @@ int main() {
         Orang mhs;
         cout << "Mengisi Data" << endl;
         cout << "Nama : ";
-        cin >> mhs.nama;
+        getline(cin, mhs.nama);
         cout << "desa : ";
-        cin >> mhs.alamat.desa;
+        getline(cin, mhs.alamat.desa);
         cout << "kota : ";
-        cin >> mhs.alamat.kota;
+        getline(cin, mhs.alamat.kota);
         cout << "Umur : ";
         cin >> mhs.umur;
         cout << endl;
-    
+        // tampilkan
+        cout << "Menampilkan Data" << endl;
+        cout << "Nama : " << mhs.nama << endl;
+        cout << "Desa : " << mhs.alamat.desa << endl;
+        cout << "Kota : " << mhs.alamat.kota << endl;
+        cout << "Umur : " << mhs.umur << endl;
+    }
