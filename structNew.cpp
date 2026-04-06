@@ -10,6 +10,7 @@ struct Orang
 
 int main() {
         // Mengisi data
+        Orang mhs;
         cout << "Mengisi Data" << endl;
         cout << "Nama : ";
         cin >> mhs.nama;
