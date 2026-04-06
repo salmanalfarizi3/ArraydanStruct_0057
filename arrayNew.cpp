@@ -29,4 +29,14 @@ int main() {
     cout << "Data Kedua = " << kamu[1] << endl;
     cout << "Data Ketiga = " << kamu[2] << endl;
     cout << "Data Keempat = " << kamu[3] << endl;
+    cout << "Data Kelima = " << kamu[4] << endl;
+    cout << endl;
+
+    // mengisi dengan menggunakan perulangan for
+    for (int i = 0; i < 4; i++) 
+    {
+        cout << "Data index " << i << " = ";
+        cin >> kamu[i];
+    }
+    cout << endl;
 }
